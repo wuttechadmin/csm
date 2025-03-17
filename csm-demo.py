@@ -34,8 +34,9 @@ import time
 #
 #   Variables
 #
-# HuggingFace Token
-FHTOKEN=''
+# Hugging Face Token
+FFTOKEN='[Add Hugging Face Token Here]'
+# ToDO:  Adding code to read token from external .json file
 
 # Model for Voice
 SESAMECSM="sesame/csm-1b"
