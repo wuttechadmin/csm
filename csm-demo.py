@@ -35,7 +35,7 @@ import time
 #   Variables
 #
 # HuggingFace Token
-FHTOKEN='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'
+FHTOKEN=''
 
 # Model for Voice
 SESAMECSM="sesame/csm-1b"
