@@ -1,0 +1,25 @@
+#
+# Sesame CSM Specific
+huggingface-hub==0.28.1
+tokenizers==0.21.0
+transformers==4.49.0
+huggingface_hub==0.28.1
+moshi==0.2.2
+torchtune==0.4.0
+torchao==0.9.0
+silentcipher @ git+https://github.com/SesameAILabs/silentcipher@master
+#
+#  CSM Demo Specific
+# torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+pygame==2.6.1
+pygame-menu==4.5.1
+feedparser==6.0.11
+newspaper3k==0.2.8
+triton-windows==3.2.0.post15
+lxml-html-clean==0.4.1
+# Location Specific Download Directive
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch
+torchaudio
+torchvision
+#bitsandbytes-cuda112==0.26.0.post2 <== Causes Error if installed
